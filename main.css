@@ -1,0 +1,153 @@
+*{
+    margin: 1px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: #ecb718;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-auto-rows: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px ;
+    background-color: #00a60d;
+    color: rgb(196, 27, 27);
+    width: 100%;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: auto;
+    font-size: 2rem;
+}
+.navbar ul li{
+    margin-right: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.image-nav{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #ecb718;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+}
+.texto{
+    font-size: 2rem;
+    margin: 20px;
+    text-align: center;
+}
+.card-container{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    border-radius:10px;
+}
+.card-prin{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card{
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #ecb718;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border:1px solid #000000;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 #ecb718;
+}
+.image-card{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.footers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b10a0a;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+html{
+    background-color: #00a60d;
+}
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Dancing+Script:wght@400..700&family=Gravitas+One&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+h4{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    color: #00a60d;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+button{
+    background-color: #00a60d;
+    color: #000000;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.mision{
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #ecb718;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border:1px solid #000000;
+    color: #000000;
+
+}
+.colormision{
+    color: #000000;
+}
