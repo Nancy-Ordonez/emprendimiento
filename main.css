@@ -37,6 +37,7 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+
 .image-nav{
     width: 50%;
     height: auto;
@@ -89,6 +90,7 @@
 }
 .card:hover{
     box-shadow: 0 8px 16px 0 #ecb718;
+    background-color: #b10a0a; 
 }
 .image-card{
     width: 100%;
@@ -135,6 +137,9 @@ button{
     font-weight: 400;
     font-style: normal;
 }
+button:hover{
+    background-color: #ecb718;
+}
 .mision{
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -150,4 +155,17 @@ button{
 }
 .colormision{
     color: #000000;
+}
+.footer-content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #000000;
+    background-color: #ecb718;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-links {
+    margin-top: 10px;
 }
