@@ -140,18 +140,19 @@ button{
 button:hover{
     background-color: #ecb718;
 }
-.mision{
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    background-color: #ecb718;
+.mision {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Asegura que las cajas se distribuyan bien */
+    gap: 20px; /* Espacio entre las cajas */
+    padding: 20px;
+}
+.mision div {
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ecb718;
+    border: 1px solid #000000;
     padding: 10px;
-    width: 100%;
-    height: 100%;
-    border:1px solid #000000;
-    color: #000000;
-
 }
 .colormision{
     color: #000000;
@@ -187,7 +188,7 @@ button:hover{
   
   .footer .row ul li {
     display: inline-block;
-    margin: 0px 30px;
+    margin: 0px 10px;
   }
   
   .footer .row a i {
@@ -195,8 +196,8 @@ button:hover{
     margin: 0% 1%;
   }
   .image-footer {
-    margin: 10px;
-    width: 30%;
+    margin: 5px;
+    width: 10%;
     height: auto;
     object-fit: cover;
   }
